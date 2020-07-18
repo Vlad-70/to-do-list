@@ -1,0 +1,15 @@
+  <%- include('header')%>
+
+  <div class="box">
+  <%  listItems.map(item => { %>
+      <div class="item">
+        <input type="checkbox">
+        <p> <%= item %> </p>
+      </div>
+  <%  }) %>
+
+  <%- include('form')%>
+
+  </div>
+
+  <%- include('footer')%>
